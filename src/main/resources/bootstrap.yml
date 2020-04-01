@@ -1,0 +1,8 @@
+aws:
+    secretsmanager:
+        name: tests
+        prefix: /api
+cloud:
+    aws:
+        region:
+            static: us-east-1
